@@ -36,7 +36,7 @@ Spring initializr是Spring官方提供的一个用来初始化一个Spring boot�
 
 * 下载layui资源包
 
-* 把https://www.layui.com/demo/layuiAdmin.html的源码copy到index.html
+* 把https://www.layui.com/demo/layuiAdmin.html 的源码copy到index.html
 
 * 导入layui资源
 
