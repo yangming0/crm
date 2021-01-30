@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>杨明的后台管理系统</title>
+    <title>后台管理系统</title>
     <link rel="stylesheet" th:href="@{/layui/css/layui.css}" media="all">
     <script th:src="@{/layui/layui.js}" charset="utf-8"></script>
 </head>
@@ -54,7 +54,7 @@
                 <li class="layui-nav-item">
                     <a href="javascript:;">数据分析</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">收入报表</a></dd>
+                        <dd><a href="/dataanalysis/income" target="content_iFrm">收入报表</a></dd>
                         <dd><a href="javascript:;">学员分布图</a></dd>
                     </dl>
                 </li>
@@ -78,7 +78,7 @@
 
 <script>
     //JavaScript代码区域
-    layui.use('element', function(){
+    layui.use(['element','layer'], function(){
         var element = layui.element;
 
     });
